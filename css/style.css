@@ -8,6 +8,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+.btn {
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .albumCard {
@@ -15,6 +25,7 @@
     flex-direction: column;
     align-items: center;
     padding: 15px;
+    flex-basis: calc(100% / 3);
 }
 
 .albumCard img {
